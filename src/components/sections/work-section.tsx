@@ -15,32 +15,32 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Работы
+            Каталог
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши объекты</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши модели</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
               number: "01",
-              title: "Квартира в новостройке",
-              category: "Установка сплит-системы, 2 комнаты",
-              year: "2024",
+              title: "Дуб классик",
+              category: "Дверь из массива дуба, эмаль",
+              year: "от 32 000 ₽",
               direction: "left",
             },
             {
               number: "02",
-              title: "Офис компании",
-              category: "Мультисплит-система на 4 блока",
-              year: "2024",
+              title: "Ясень модерн",
+              category: "Дверь из массива ясеня, шпон",
+              year: "от 28 000 ₽",
               direction: "right",
             },
             {
               number: "03",
-              title: "Частный дом",
-              category: "Монтаж и обслуживание, 3 этажа",
-              year: "2023",
+              title: "Сосна лофт",
+              category: "Дверь из массива сосны, браш",
+              year: "от 20 000 ₽",
               direction: "left",
             },
           ].map((project, i) => (

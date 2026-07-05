@@ -17,29 +17,29 @@ export function ServicesSection() {
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Услуги
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что мы делаем</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что мы предлагаем</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Продажа кондиционеров",
-              description: "Большой выбор сплит-систем от бюджетных до премиум с подбором под ваше помещение",
+              title: "Двери из массива",
+              description: "Производим межкомнатные двери из натурального массива по индивидуальным размерам",
               direction: "top",
             },
             {
-              title: "Монтаж под ключ",
-              description: "Профессиональная установка сплит-систем любой сложности с гарантией на работы",
+              title: "Бесплатный замер",
+              description: "Выезд мастера и точный замер проёмов при заказе от 2-х дверей",
               direction: "right",
             },
             {
-              title: "Обслуживание и чистка",
-              description: "Заправка фреоном, чистка и дезинфекция для долгой и исправной работы техники",
+              title: "Установка под ключ",
+              description: "Монтаж дверей, коробок и фурнитуры с гарантией качества работ",
               direction: "left",
             },
             {
-              title: "Ремонт и диагностика",
-              description: "Быстрая диагностика неисправностей и ремонт кондиционеров всех марок",
+              title: "Гарантия 1 год",
+              description: "Даём годовую гарантию на изделия и выполненные монтажные работы",
               direction: "bottom",
             },
           ].map((service, i) => (

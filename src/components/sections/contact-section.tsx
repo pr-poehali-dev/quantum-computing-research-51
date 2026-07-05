@@ -80,7 +80,7 @@ export function ContactSection() {
                   <span className="font-mono text-xs text-foreground/60">Email</span>
                 </div>
                 <p className="text-base text-foreground transition-colors group-hover:text-foreground/70 md:text-2xl">
-                  info@klimat-nv.ru
+                  info@duet-dveri.ru
                 </p>
               </a>
 
@@ -94,7 +94,7 @@ export function ContactSection() {
                   <MapPin className="h-3 w-3 text-foreground/60" />
                   <span className="font-mono text-xs text-foreground/60">Локация</span>
                 </div>
-                <p className="text-base text-foreground md:text-2xl">Нововоронеж, Воронежская обл.</p>
+                <p className="text-base text-foreground md:text-2xl">Казань, фабрика «Дуэт»</p>
               </div>
 
               <div
@@ -166,7 +166,7 @@ export function ContactSection() {
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   required
                   className="w-full border-b border-foreground/30 bg-transparent py-1.5 text-sm text-foreground placeholder:text-foreground/40 focus:border-foreground/50 focus:outline-none md:py-2 md:text-base"
-                  placeholder="Какой кондиционер нужен и на какое помещение?"
+                  placeholder="Сколько дверей нужно и какие размеры проёмов?"
                 />
               </div>
 

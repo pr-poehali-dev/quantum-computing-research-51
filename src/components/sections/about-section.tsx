@@ -19,11 +19,11 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               }`}
             >
               <h2 className="mb-3 font-sans text-3xl font-light leading-[1.1] tracking-tight text-foreground md:mb-4 md:text-6xl lg:text-7xl">
-                Создаём
+                Своя
                 <br />
-                комфорт
+                фабрика
                 <br />
-                <span className="text-foreground/40">в каждом доме</span>
+                <span className="text-foreground/40">в Казани</span>
               </h2>
             </div>
 
@@ -34,10 +34,10 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               style={{ transitionDelay: "200ms" }}
             >
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Мы команда мастеров из Нововоронежа, которые устанавливают и обслуживают кондиционеры любой сложности.
+                Мы производим межкомнатные двери из массива на собственной фабрике в Казани — от идеи до готового изделия.
               </p>
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Работаем аккуратно и в срок, даём гарантию на монтаж и всегда на связи после установки.
+                Бесплатный замер, установка под ключ и годовая гарантия на каждую дверь.
               </p>
             </div>
           </div>
@@ -45,9 +45,9 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
           {/* Right side - Stats with creative layout */}
           <div className="flex flex-col justify-center space-y-6 md:space-y-12">
             {[
-              { value: "1500+", label: "Установок", sublabel: "Смонтировано в Нововоронеже и области", direction: "right" },
-              { value: "10", label: "Лет", sublabel: "Опыта работы с климатической техникой", direction: "left" },
-              { value: "3", label: "Года", sublabel: "Гарантия на монтажные работы", direction: "right" },
+              { value: "10", label: "Лет", sublabel: "Работаем на рынке Казани", direction: "right" },
+              { value: "1", label: "Год", sublabel: "Гарантия на изделия и монтаж", direction: "left" },
+              { value: "0₽", label: "Замер", sublabel: "Бесплатно от 2-х дверей", direction: "right" },
             ].map((stat, i) => {
               const getRevealClass = () => {
                 if (!isVisible) {
@@ -84,10 +84,10 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
           style={{ transitionDelay: "750ms" }}
         >
           <MagneticButton size="lg" variant="primary" onClick={() => scrollToSection?.(4)}>
-            Заказать установку
+            Заказать замер
           </MagneticButton>
           <MagneticButton size="lg" variant="secondary" onClick={() => scrollToSection?.(1)}>
-            Наши работы
+            Смотреть каталог
           </MagneticButton>
         </div>
       </div>
